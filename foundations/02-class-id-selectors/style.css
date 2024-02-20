@@ -4,7 +4,7 @@
 
 }
 
-.poyo {
+#poyo {
     color:#0000ff;
     font-size:32px;
 
@@ -15,7 +15,7 @@
 
 }
 
-.green {
+#green {
     background-color:#90ee90;
     font-size:24px;
     font-weight:bold;
