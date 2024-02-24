@@ -14,5 +14,5 @@
   height: 80px;
   display:flex;
   flex:1 1 auto;
-  justify-content:center;
+  align-item:center;
 }
