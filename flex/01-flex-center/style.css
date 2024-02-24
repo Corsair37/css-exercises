@@ -6,7 +6,7 @@
   display: flex;
   flex:1;
   justify-content:center;
-  align-item:center;
+  align-items:center;
 }
 
 .box {
