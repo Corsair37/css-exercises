@@ -56,12 +56,13 @@ ul {
   flex:1;
   flex-direction:row;
   justify-content:flex=start;
-  border:2px;
+  margin-right:4px;
 }
 .left {
   display:flex;
   flex:1;
   justify-content:flex-start;
+  align-items:center;
   
 
 }
@@ -70,5 +71,6 @@ ul {
   display:flex;
   flex:1;
   justify-content:flex-end;
+  align-items:center;
 
 }
