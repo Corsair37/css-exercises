@@ -1,7 +1,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display:flex:
+  display:flex;
+  flex-direction:row;
   flex:1;
   justify-content:center;
   
