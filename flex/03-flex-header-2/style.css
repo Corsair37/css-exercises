@@ -15,7 +15,7 @@ body {
   display:flex;
   flex:1;
   flex-direction:row;
-  align-content:center;
+  justify-content:space-evenly;
 }
 
 .profile-image {
@@ -51,6 +51,13 @@ ul {
   list-style-type: none;
 }
 
+.links{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  justify-content:space-evenly;
+  
+}
 .left {
   display:flex;
   flex:1;
