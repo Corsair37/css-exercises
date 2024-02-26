@@ -55,8 +55,8 @@ ul {
   display:flex;
   flex:1;
   flex-direction:row;
-  justify-content:space-evenly;
-  
+  justify-content:flex=start;
+
 }
 .left {
   display:flex;
