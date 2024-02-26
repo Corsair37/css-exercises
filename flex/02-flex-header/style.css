@@ -14,7 +14,8 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 2px;
+
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
   flex-direction: row;
   justify-content:space-between;
   align-items:flex-start;
+
 }
 
 a {
@@ -33,4 +35,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin:4px;
 }
