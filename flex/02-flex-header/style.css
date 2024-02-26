@@ -5,6 +5,7 @@
   flex-direction:row;
   flex:1;
   justify-content:space-between;
+  align-items:center;
   
   
 }
@@ -15,6 +16,7 @@
   color: tomato;
   background: white;
   padding: 2px;
+  margin:auto;
 
 }
 
@@ -25,7 +27,7 @@ ul {
   flex:1;
   flex-direction: row;
   justify-content:space-between;
-  align-items:flex-start;
+  align-items:center;
 
 }
 
