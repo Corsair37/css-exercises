@@ -64,6 +64,8 @@ ul {
   flex:1;
   justify-content:flex-start;
   align-items:center;
+  gap: 16px;
+  
   
 
 }
@@ -72,7 +74,9 @@ ul {
   display:flex;
   flex-direction:row;
   flex:1;
-  justify-content:space-between;
-  gap:4px;
+  justify-content:flex-end;
+  align-items:center;
+  gap:16px;
+  
 
 }
