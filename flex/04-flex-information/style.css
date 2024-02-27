@@ -2,13 +2,9 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.img {
+img {
   width: 100px;
   height: 100px;
-  display:flex;
-  flex-direction:row;
-  flex:1;
-  justify-content:center;
 }
 
 .title {
