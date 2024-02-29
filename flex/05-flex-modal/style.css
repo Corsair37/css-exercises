@@ -48,6 +48,10 @@ body {
   text-wrap: nowrap;
 }
 
+.text {
+  border:8px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
