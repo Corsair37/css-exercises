@@ -20,12 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:10px;
   display:flex;
-  flex:1;
+  flex:0;
   flex-direction:column;
   justify-content:space-evenly;
   align-items:flex-start;
-  
 }
 
 .icon {
@@ -72,4 +72,26 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.Ibox{
+  margin:16px;
+
+}
+
+.Mbox{
+  margin:16px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly:
+}
+
+.Cbox{
+  margin:16px:
+
+}
+
+.CacoBox{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
 }
