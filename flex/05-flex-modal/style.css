@@ -45,6 +45,7 @@ body {
   text-decoration:bold;
   font-size: 28px;
   padding:8px;
+  text-wrap: nowrap;
 }
 
 .close-button {
@@ -72,6 +73,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right:8px;
 }
 
 button.cancel {
@@ -102,5 +104,5 @@ button.cancel {
   flex:1;
   flex-direction:column;
   justify-content:flex-start;
-  padding:8px;
+  padding:8px;margin-top:8px;
 }
