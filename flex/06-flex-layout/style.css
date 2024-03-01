@@ -31,26 +31,28 @@ input {
 }
 
 ul {
-  text-decoration: none;
   list-style-type: none;
 }
+li {
+  text-decoration: none;
+}
 
-.header.left-links {
+.header left-links {
   display:flex;
   justify-content:flex-start;
 }
 
-.header.right-links {
+.header right-links {
   display:flex;
   justify-content:flex-end;
 }
 
-.footer.left-links {
+.footer left-links {
   display: flex;
   justify-content:flex-start;
 }
 
-.footer.right-links {
+.footer right-links {
   display: flex;
   justify-content:flex-start;
 }
