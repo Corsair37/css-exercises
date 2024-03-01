@@ -79,7 +79,8 @@ body {
   border-radius: 4px;
   display:flex;
   text-wrap:wrap;
-  width:200px;
+  width: 350px;
   margin:8px;
   padding: 4px;
+  font-weight:bold;
 }
