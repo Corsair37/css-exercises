@@ -79,4 +79,6 @@ body {
   border-radius: 4px;
   display:flex;
   text-wrap:wrap;
+  width:320px;
+  margin:8px;
 }
