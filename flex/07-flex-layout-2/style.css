@@ -11,11 +11,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size:24px;
   font-weight:bold;
   display:flex;
-  flex:1 1 1;
   justify-content:flex-start;
-  padding-left:8px;
+  padding:8px;
 
 }
 
@@ -45,9 +45,29 @@ body {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex:1 0 1;
+  flex:1;
 }
 
+.c {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  justify-content:space-between;
+}
+
+.ctop {
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  justify-content:space-evenly;
+}
+
+.cbottom {
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  justify-content:space-evenly;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
