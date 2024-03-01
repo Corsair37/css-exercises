@@ -53,12 +53,14 @@ a {
 .header > .left-links {
   display:flex;
   justify-content:flex-start;
+  flex: 0 1 1 ;
   gap:8px;
 }
 
 .header > .right-links {
   display:flex;
   justify-content:flex-end;
+  flex: 0 1 1;
   gap:8px;
 }
 
@@ -77,19 +79,22 @@ a {
 
 .footer > .left-links {
   display: flex;
+  flex: 0 1 1;
   justify-content:flex-start;
   gap:8px;
+
 }
 
 .footer > .right-links {
   display: flex;
   justify-content:flex-start;
+  flex: 0 1 1;
   gap:8px;
 }
 
 .content {
   display: flex;
-  flex:1;
+  flex:1 0 1;
   flex-direction:column;
   justify-content:center;
   align-items:center;
