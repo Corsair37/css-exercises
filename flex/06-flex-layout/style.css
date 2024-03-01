@@ -38,13 +38,12 @@ a {
   text-decoration: none;
   color:gray;
   display:flex;
-  
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  flex:1;
+  flex:0 1 1;
   justify-content:space-between;
 
 
@@ -53,21 +52,22 @@ a {
 .header > .left-links {
   display:flex;
   justify-content:flex-start;
-  flex: 0 1 1 ;
   gap:8px;
+  padding-left:0px;
+  padding-right:4px;
 }
 
 .header > .right-links {
   display:flex;
   justify-content:flex-end;
-  flex: 0 1 1;
   gap:8px;
+  padding-left:4px;
+  padding-right:0px;
 }
 
 .footer{
   display: flex;
   flex-direction: row;
-  flex:0 1 1;
   justify-content:space-between;
   align-items:flex-end;
   padding:4px;
@@ -79,17 +79,19 @@ a {
 
 .footer > .left-links {
   display: flex;
-  flex: 0 1 1;
   justify-content:flex-start;
   gap:8px;
+  padding-left:0px;
+  padding-right:4px;
 
 }
 
 .footer > .right-links {
   display: flex;
   justify-content:flex-start;
-  flex: 0 1 1;
   gap:8px;
+  padding-left:4px;
+  padding-right:0px;
 }
 
 .content {
